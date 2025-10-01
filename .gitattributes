@@ -1,0 +1,12 @@
+# Texto plano (código fuente, HTML, CSS, JS, etc.) → siempre LF en el repo
+*.css      text eol=lf
+*.js       text eol=lf
+*.html     text eol=lf
+*.md       text eol=lf
+*.json     text eol=lf
+
+# Archivos binarios (imágenes, fuentes, etc.) → sin conversión
+*.png      binary
+*.jpg      binary
+*.svg      binary
+*.woff2    binary
